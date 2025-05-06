@@ -1,10 +1,9 @@
-# vm-health-check
 # VM Health Check Script
 
 This is a shell script designed to analyze the health of virtual machines (VMs) running Ubuntu. The script checks resource utilization for CPU, memory, and disk space and determines whether the VM is "Healthy" or "Not Healthy" based on specified thresholds.
 
 
-#Prompt
+# Prompt
 create a shell script where the script should analyze the health of the virtual machines based on cpu, memory and disk space. if any of these three things are less than 60 percent utilized, the script declares the state of vm as Healthy. whereas if any of these parameters are more than 60 percent, script declares the health as Not Healthy.  also the script should support a command line argument named "explain", when passed the script should explain the reason for health status along with printing of health status. target virtual machines are always ubuntu.
 
 ## Features
